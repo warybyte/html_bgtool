@@ -1,7 +1,7 @@
 # html_bgtool
 Workstation background changer with the flexibility of a web page.
 
-This might seem like a re-invention of Conky because it is. I tried Conky for about a year and never really got it to work exactly like I wanted. Being a novice to Lua scripting didn't help, so I went about using technology I'm more familiar with to accomplish something similar. Hopefully others find the idea of converting an easily edited HTML/CSS file into a functional background.
+This might seem like a re-invention of Conky because it is. I tried Conky for about a year and never really got it to work exactly like I wanted. Being a novice to Lua scripting didn't help, so I went about using technology I'm more familiar with to accomplish something similar. Hopefully others find the idea and use of pretty common tools.
 
 To start, you'll need to install the 'imgkit' library in your Python environment. It's a nifty wrapper for wkhtmltopdf which I installed using Pip. 
 
