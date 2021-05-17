@@ -1,0 +1,14 @@
+[Unit]
+Description=Background tool service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=<INSERT USER>
+ExecStart=/bin/bash /path/to/script/bg.sh
+
+[Install]
+WantedBy=graphical.target
