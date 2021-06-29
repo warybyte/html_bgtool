@@ -5,7 +5,7 @@ This might seem like a re-invention of Conky because it is. I tried Conky for ab
 
 The idea is simple: Use a dynamic webpage your desktop background instead of a static image.
 
-Obviously most desktop UI managers allow for static image backgrounds and not URLs, so I set my manager to point to a specific image which is dynamically over-written every 'x' seconds by what ammounts to a screenshot of a status page. I run this process as a service when my system boots to make my background a dynamic HUD (heads up display) of my system and whatever else I want to monitor.
+Obviously most desktop UI managers allow for static image backgrounds and not URLs, so I set my manager to point to a specific image which is dynamically over-written every 'x' seconds by a snapshot of my status webpage. I run this process as a service when my system boots to make my background a dynamic HUD (heads up display) of my system and whatever else I want to monitor.
 
 To start, you'll need to install the 'imgkit' library in your Python environment...as well as have a Python environment. It's a nifty wrapper for wkhtmltopdf which I installed using Pip. 
 
